@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FacebookModule } from 'ngx-facebook';
 
 @NgModule({
   declarations: [
@@ -11,8 +10,7 @@ import { FacebookModule } from 'ngx-facebook';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FacebookModule.forRoot()
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
