@@ -8,8 +8,7 @@
 <script>
   var chatbox = document.getElementById('fb-customer-chat');
   chatbox.setAttribute("page_id", "106032472338884");
-  chatbox.setAttribute("attribution", "install_email");
-  chatbox.setAttribute("attribution_version", "biz_inbox");
+  chatbox.setAttribute("attribution", "biz_inbox");
 </script>
 
 <!-- Your SDK code -->
@@ -29,3 +28,5 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
+
+<router-outlet></router-outlet>
